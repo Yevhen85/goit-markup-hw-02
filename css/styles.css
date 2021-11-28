@@ -1,0 +1,73 @@
+body {
+  background-color: #ffffff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+}
+
+:root {
+  --primary-color: #212121;
+  --title-color: #757575;
+  --accent-color: #2196f3;
+}
+
+.navigation a:hover,
+.navigation a:focus,
+.navigation .active {
+  color: var(--accent-color);
+}
+
+.navigation a,
+.projects a {
+  color: var(--primary-color);
+}
+
+.items a {
+  color: var(--title-color);
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*logo*/
+.logo-web {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.logo-studio-black {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+/*navigation*/
+.nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.items {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--litle-color);
+}
